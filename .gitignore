@@ -1,0 +1,8 @@
+.env
+data/*.json
+data/*.csv
+data/*.js
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

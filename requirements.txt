@@ -1,0 +1,2 @@
+# Aucune dependance externe : le pipeline n'utilise que la bibliotheque standard
+# (urllib, json, csv, re, argparse). Python 3.9 ou plus recent suffit.
