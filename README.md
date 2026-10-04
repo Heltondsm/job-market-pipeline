@@ -5,7 +5,7 @@
 ![APIs](https://img.shields.io/badge/APIs-France_Travail_·_INSEE_Sirene-0f62fe?style=flat-square)
 ![Statut](https://img.shields.io/badge/Statut-en_production-22c55e?style=flat-square)
 
-Pipeline qui collecte chaque semaine les offres d'emploi data et les entreprises qui recrutent, à partir de deux APIs publiques. Il déduplique, classe par famille de métiers, et écrit des fichiers exploitables. **Aucune dépendance externe, la bibliothèque standard suffit.**
+Pipeline qui collecte chaque semaine les offres d'emploi data et les entreprises du secteur, à partir de deux APIs publiques. Il déduplique, classe par famille de métiers, et écrit des fichiers exploitables. **Aucune dépendance externe, la bibliothèque standard suffit.**
 
 ---
 
@@ -53,19 +53,19 @@ flowchart LR
 
 ## 🔍 Ce que ça donne
 
-Relevé du 8 septembre 2026, sur l'ensemble de la France :
+Relevé du 4 octobre 2026, sur l'ensemble de la France :
 
 | | |
 |---|---|
-| Offres collectées | **698**, dont 43 en alternance |
-| Entreprises | **1 166** de 50 salariés et plus, en Île-de-France |
-| Durée | **11 secondes** |
+| Offres collectées | **787**, dont 38 en alternance |
+| Entreprises | **1 135** de 50 salariés et plus, en Île-de-France |
+| Durée | **14 secondes** |
 
 Répartition par famille de métiers :
 
-| DE | DA | ML | BI | GOUV | DS | AE |
-|---|---|---|---|---|---|---|
-| 226 | 138 | 92 | 77 | 74 | 68 | 8 |
+| DE | DA | BI | ML | DS | GOUV | AE | Autres data |
+|---|---|---|---|---|---|---|---|
+| 224 | 142 | 118 | 91 | 90 | 87 | 20 | 15 |
 
 Une donnée que je n'aurais pas vue en cherchant à la main : les postes de Data Engineer sont **1,6 fois plus nombreux** que ceux de Data Analyst, alors que les seconds sont bien plus visibles dans les formations.
 
