@@ -143,4 +143,4 @@ job-market-pipeline/
 
 ## 🔗 Suite du projet
 
-Ces données alimentent aujourd'hui un CRM : [CRM data et agents IA : centraliser offres, contacts et échanges](https://github.com/Heltondsm/crm-data-agents-ia), base PostgreSQL alimentée par des API, collecte Python planifiée et offres notées par IA.
+Ces données alimentent aujourd'hui un CRM : [CRM data et agents IA : centraliser opportunités, contacts et échanges](https://github.com/Heltondsm/crm-data-agents-ia), base PostgreSQL alimentée par des API, collecte Python planifiée et opportunités notées par IA.
