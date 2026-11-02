@@ -15,6 +15,8 @@ Je suis en reconversion vers la data et je consultais cinq sites d'offres chaque
 
 J'ai construit ce pipeline pour arrêter de chercher à la main et commencer à mesurer.
 
+> **La suite de ce projet** : [job-market-analytics](https://github.com/Heltondsm/job-market-analytics) reprend cette collecte, la charge dans BigQuery avec Airflow chaque lundi, et la modélise avec dbt (32 tests).
+
 ---
 
 ## 🎯 Ce qu'il fait
