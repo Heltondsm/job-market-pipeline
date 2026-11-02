@@ -143,6 +143,4 @@ job-market-pipeline/
 
 ## 🔗 Suite du projet
 
-Cette collecte est devenue une chaîne d'Analytics Engineering : [Pipeline Analytics Engineering : quels outils data enseigner, et où ?](https://github.com/Heltondsm/job-market-analytics), chargée dans BigQuery par Airflow chaque lundi et modélisée avec dbt (32 tests).
-
 Ces données alimentent aujourd'hui un CRM : [CRM data et agents IA : centraliser opportunités, contacts et échanges](https://github.com/Heltondsm/crm-data-agents-ia), base PostgreSQL alimentée par des API, collecte Python planifiée et opportunités notées par IA.
