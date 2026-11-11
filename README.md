@@ -144,3 +144,45 @@ job-market-pipeline/
 ## 🔗 Suite du projet
 
 Ces données alimentent aujourd'hui un CRM : [CRM data et agents IA : centraliser opportunités, contacts et échanges](https://github.com/Heltondsm/crm-data-agents-ia), base PostgreSQL alimentée par des API, collecte Python planifiée et opportunités notées par IA.
+
+---
+
+## 📈 Compétences démontrées
+
+### Collecte de données
+- ✅ Deux APIs publiques interrogées (OAuth2 France Travail, INSEE Sirene), 14 recherches fusionnées
+- ✅ Relances avec attente croissante, sources isolées : une API en panne n'arrête pas l'autre
+
+### Qualité des données
+- ✅ Déduplication sur l'identifiant d'offre, classification par famille de métiers avec un ordre de règles vérifié
+- ✅ Alternances détectées sur trois signaux, rapport d'exécution qui liste ce qui n'est pas passé
+
+### Automatisation
+- ✅ Exécution hebdomadaire planifiée (launchd ou cron), sorties JSON, CSV et JS
+- ✅ Aucune dépendance externe : le script tourne sur n'importe quelle machine avec Python
+
+---
+
+## 📧 Contact
+
+**Helton Dos Santos Moreira**
+Data Analyst | 10 ans d'expérience business (retail et e-commerce)
+
+- 📧 Email : heltonmail8@gmail.com
+- 💼 LinkedIn : [in/helton-dsm-data](https://linkedin.com/in/helton-dsm-data)
+- 🐙 GitHub : [Heltondsm](https://github.com/Heltondsm)
+- 🌐 Portfolio : [heltondsm.github.io](https://heltondsm.github.io/)
+
+---
+
+## 🔗 Autres projets
+
+- [CRM data et agents IA : centraliser opportunités, contacts et échanges](https://github.com/Heltondsm/crm-data-agents-ia), PostgreSQL alimenté par des API, collecte Python planifiée, opportunités notées par IA, testé automatiquement à chaque push
+- [Étude de marché par clustering : choisir les pays où exporter de la volaille bio](https://github.com/Heltondsm/python-etude-marche-clustering-pays), ACP, CAH et k-means sur 170 pays, 4 familles, 3 marchés prioritaires
+- [Tableau de bord Power BI : portefeuille de projets](https://github.com/Heltondsm/powerbi-portefeuille-projets-rls), 104 projets dans 52 pays, sécurité au niveau des lignes sur 3 rôles, 25 mesures DAX
+- [Audit de la qualité des données d'un catalogue e-commerce](https://github.com/Heltondsm/python-audit-donnees-catalogue), 3 sources réconciliées, 9 anomalies, 276 859 € de stock valorisé
+- [Pipeline dbt : profils sociodémographiques](https://github.com/Heltondsm/dbt-demographics-pipeline), Snowflake et DuckDB, 26 tests, reproductible en une commande
+
+---
+
+**Projet réalisé en septembre 2026**
